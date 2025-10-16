@@ -1,7 +1,7 @@
-# 🍗 Los Pollos Hermanós — Landing Page
+# 🍗 Los Pollos Hermanós Landing Page
 
 A **static restaurant landing page** built with **Bootstrap 5**, designed to showcase food & beverage menus with a modern, responsive layout.  
-Includes **parallax scrolling**, **animated hero section**, and an interactive **"We’re Hiring" GIF CTA** — perfect for food brands looking to combine storytelling and conversion.
+Includes **parallax scrolling**, **animated hero section**, and an interactive **"We’re Hiring" GIF CTA** perfect for food brands looking to combine storytelling and conversion.
 
 ---
 
