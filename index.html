@@ -40,8 +40,11 @@
         }
 
         /* Hero Section */
+        /*https://images.unsplash.com/photo-1600891964599-f61ba0e24092 */
+        /* https://mir-s3-cdn-cf.behance.net/project_modules/1400/53fed156571847.5a81a07a52d8a.jpg */
+
         .hero {
-            background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+            background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/53fed156571847.5a81a07a52d8a.jpg') center/cover no-repeat;
             height: 100vh;
             display: flex;
             align-items: center;
@@ -49,6 +52,11 @@
             color: white;
             text-align: center;
             position: relative;
+        }
+
+        .hero-logo {
+            max-width: 80%;
+            animation: floatLogo 3s ease-in-out infinite;
         }
 
         .hero::after {
@@ -77,6 +85,43 @@
             letter-spacing: .2px
         }
 
+        @keyframes floatLogo {
+            0% {transform: translateY(0);}
+            50% {transform: translateY(-10px);}
+            100% {transform: translateY(0);}
+        }
+
+        /* Color Transition*/
+        .color-transition {
+            background-color: #c1121f;
+            height: 40px;
+        }
+        .color-transition-bottom {
+            background-color: #c1121f;
+            height: 40px;
+        }
+
+        /* Hiring section*/
+        .gif-cta {
+            padding: 0;
+            margin: 0;
+            position: relative;
+        }
+        .gif-link {
+            display: inline-block;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .gif-link:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+        }
+        .gif-hiring {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 0;
+        }
+
         /* Parallax sections */
         .parallax {
             background-attachment: fixed;
@@ -98,7 +143,7 @@
 
         /* About Section */
         #about {
-            background-image: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24');
+            background-image: url('assets/img/lp-about.jpg');
             color: white;
         }
 
@@ -109,7 +154,7 @@
 
         /* Contact */
         #contact {
-            background: url('https://images.unsplash.com/photo-1578683010236-d716f9a3f461') center/cover no-repeat;
+            background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2c/d9/67/you-can-sit-outide-too.jpg?w=900&h=500&s=1') center/cover no-repeat;
             color: white;
             position: relative;
         }
@@ -157,13 +202,25 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to Los Pollos Hermanós</h1>
-            <p class="tagline">Taste the family</p>
-            <a href="#menu" class="btn btn-warning btn-lg shadow mt-3">
+            <img src="assets/img/lph-logos.png" alt="Los Pollos Hermanos" class="hero-logo mb-4">
+            <!-- <a href="#menu" class="btn btn-warning btn-lg shadow mt-3">
                 <strong class="cta-lang">Explore</strong>
-            </a>
+            </a> -->
         </div>
     </section>
+
+    <!-- color transition section -->
+    <div class="color-transition"></div>
+
+    <!-- Hiring sections -->
+    <div class="gif-cta text-center my-0">
+        <a href="#career" class="gif-link">
+            <img src="assets/img/los-pollos-hermanos-ad.gif" alt="Attention now hiring" class="img-fluid gif-hiring">
+        </a>
+    </div>
+
+    <!-- color transition section bottom -->
+    <div class="color-transition-bottom"></div>
 
     <!-- Menu Showcase -->
     <section id="menu" class="py-5 parallax"
@@ -173,7 +230,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card menu-card shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1600891964909-8bdfc3e1b1b0" class="card-img-top"
+                        <img src="https://static.shakeys.com/resources/images/menu-pages/chicken/golden-fried-chicken.png" class="card-img-top"
                             alt="Fried Chicken">
                         <div class="card-body">
                             <h5 class="card-title">Crispy Fried Chicken</h5>
@@ -184,22 +241,22 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card menu-card shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add" class="card-img-top"
+                        <img src="https://www.borenos.com/wp-content/uploads/2025/04/Double-Signature-Burger-450x303.png" class="card-img-top"
                             alt="Burger Combo">
                         <div class="card-body">
                             <h5 class="card-title">Double Burger Combo</h5>
-                            <p class="card-text">Juicy double beef burger with fries and soda.</p>
+                            <p class="card-text">Juicy double chicken burger.</p>
                             <p class="fw-bold text-danger">$12.49</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card menu-card shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1590080875837-9f77a7b19b9b" class="card-img-top"
+                        <img src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/ugsiabvj/898f481b-701b-4c4b-b322-183d365294c7.jpg" class="card-img-top"
                             alt="Iced Coffee">
                         <div class="card-body">
-                            <h5 class="card-title">Iced Coffee</h5>
-                            <p class="card-text">Perfectly brewed coffee with a smooth chill.</p>
+                            <h5 class="card-title">Onion Rings</h5>
+                            <p class="card-text">Crispy onion rings side.</p>
                             <p class="fw-bold text-danger">$3.99</p>
                         </div>
                     </div>
