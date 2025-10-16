@@ -5,6 +5,11 @@ Includes **parallax scrolling**, **animated hero section**, and an interactive *
 
 ---
 
+## 📸 Preview
+<img width="1350" height="608" alt="image" src="https://github.com/user-attachments/assets/99bc8f36-9f56-43e8-9752-28d643dcd523" />
+
+---
+
 ## 🌮 Overview
 
 **Los Pollos Hermanós Landing Page** is a front-end project that highlights:
@@ -46,9 +51,5 @@ Built with ❤️ by Me
 Inspired by the Los Pollos Hermanos brand from Breaking Bad / Better Call Saul universe.
 Images and videos used are from Unsplash and Coverr (royalty-free).
 
----
-
-## 📸 Preview
-<img width="1350" height="608" alt="image" src="https://github.com/user-attachments/assets/99bc8f36-9f56-43e8-9752-28d643dcd523" />
 
 
