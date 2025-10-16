@@ -40,5 +40,9 @@ Includes **parallax scrolling**, **animated hero section**, and an interactive *
 
 ---
 
-## 📁 Folder Structure
+## 💬 Credits
+
+Built with ❤️ by Me
+Inspired by the Los Pollos Hermanos brand from Breaking Bad / Better Call Saul universe.
+Images and videos used are from Unsplash and Coverr (royalty-free).
 
