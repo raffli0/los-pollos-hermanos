@@ -7,6 +7,10 @@ Includes **parallax scrolling**, **animated hero section**, and an interactive *
 
 ## 📸 Preview
 <img width="1350" height="608" alt="image" src="https://github.com/user-attachments/assets/99bc8f36-9f56-43e8-9752-28d643dcd523" />
+<img width="1347" height="603" alt="image" src="https://github.com/user-attachments/assets/a3802089-4551-4da1-b89e-01f179968456" />
+<img width="1346" height="608" alt="image" src="https://github.com/user-attachments/assets/bb947045-ff54-4c3b-b1ad-60f49568c06f" />
+
+
 
 ---
 
