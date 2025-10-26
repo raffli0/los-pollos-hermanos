@@ -21,7 +21,6 @@ Includes **parallax scrolling**, **animated hero section**, and an interactive *
 - Transparent navbar that becomes solid on scroll
 - Parallax sections for “Menu” and “About”
 - Interactive GIF section (“We’re Hiring”) with hover effects
-- Smooth bilingual design flow ready for localization (EN/ES)
 - Fully responsive layout optimized for desktop & mobile
 
 ---
